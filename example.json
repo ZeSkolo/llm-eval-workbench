@@ -1,0 +1,26 @@
+{
+  "threshold": 1,
+  "cases": [
+    {
+      "id": "cite",
+      "must_include": [
+        "immutable"
+      ],
+      "citation": true
+    },
+    {
+      "id": "json",
+      "json_keys": [
+        "answer",
+        "sources"
+      ]
+    }
+  ],
+  "candidate": {
+    "cite": "Snapshots use immutable blocks [notes:1]",
+    "json": "{\"answer\":\"CRC32\", \"sources\":[\"notes\"]}"
+  },
+  "baseline": {
+    "cite": "Blocks are immutable."
+  }
+}
